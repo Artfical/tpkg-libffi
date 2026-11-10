@@ -1,0 +1,23 @@
+{
+ "name": "libffi",
+ "version": "3.4.6",
+ "license": "MIT",
+ "homepage": "https://sourceware.org/libffi/",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "libffi-3.4.6.tar.gz"
+ ],
+ "desc": "libffi 3.4.6 foreign function interface library (closures use plain executable memory)",
+ "file": "libffi-3.4.6.tpkg",
+ "size": 67796,
+ "sha256": "190aeabcfcc70a0346689d1752d07c64939132019ccf6adffa3154086c586caa",
+ "unpacked": 181803,
+ "min_build": 615,
+ "depends": [
+  "gcc"
+ ],
+ "commands": {}
+}

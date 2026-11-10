@@ -1,0 +1,6 @@
+libffi 3.4.6 for tOS
+====================
+
+Built from the release tarball beside this package (libffi-3.4.6.tar.gz), unmodified, with prefix /system/pkg/libffi: headers in include/, libraries in lib/. gcc finds them by itself (its specs list this folder). License: MIT (LICENSE).
+Built for baseline x86-64 (libffi's own default asks for a Broadwell CPU) and with --disable-exec-static-tramp: closures live in ordinary executable memory (the static trampoline tables need shared file mappings).
+glibc: its programs and shared libraries are linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.
